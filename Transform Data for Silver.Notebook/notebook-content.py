@@ -70,7 +70,7 @@ df2 = df2.drop('currency')
 
 # Rename columns for clarity
 df2 = df2.withColumnsRenamed({
-    'date': 'Date',
+    'date': 'RecordingDate',
     'admin1': 'Province',
     'admin2': 'City',
     'market': 'Market',
@@ -110,7 +110,7 @@ from delta.tables import *
 # Define schema and create table
 DeltaTable.createIfNotExists(spark) \
  .tableName("Food_Prices_Silver") \
- .addColumn("Date", DateType()) \
+ .addColumn("RecordingDate", DateType()) \
  .addColumn("Province", StringType()) \
  .addColumn("City", StringType()) \
  .addColumn("Market", StringType()) \
@@ -151,12 +151,12 @@ dfUpdates = df3
 table.alias('silver') \
     .merge(
         dfUpdates.alias('updates'),
-        'silver.Date = updates.Date and silver.Market = updates.Market and silver.Commodity = updates.Commodity and silver.Unit = updates.Unit and silver.PriceType = updates.PriceType'
+        'silver.RecordingDate = updates.RecordingDate and silver.Market = updates.Market and silver.Commodity = updates.Commodity and silver.Unit = updates.Unit and silver.PriceType = updates.PriceType'
     ) \
     .whenMatchedUpdate(set = {}) \
     .whenNotMatchedInsert(values =
         {
-            'Date': 'updates.Date',
+            'RecordingDate': 'updates.RecordingDate',
             'Province': 'updates.Province',
             'City': 'updates.City',
             'Market': 'updates.Market',
