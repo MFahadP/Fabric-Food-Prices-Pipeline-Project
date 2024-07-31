@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "pipeline_load_bronze_food_prices_data"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c4eaecf7-52c6-487a-ae83-180937ba2809"
+  }
+}
