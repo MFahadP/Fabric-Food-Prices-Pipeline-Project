@@ -1,12 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "DataPipeline",
-    "displayName": "pipeline_load_food_prices_data_to_lakehouse",
-    "description": ""
+    "type": "SemanticModel",
+    "displayName": "Food_Prices_Gold"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "c4eaecf7-52c6-487a-ae83-180937ba2809"
+    "logicalId": "35dc98ce-ed51-41fb-8635-adbaf21b015b"
   }
 }
