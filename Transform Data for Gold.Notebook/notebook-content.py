@@ -286,7 +286,7 @@ dfDimMarkets_temp = spark.read.table('Food_Prices.dim_markets_gold')
 dfDimCommodities_temp = spark.read.table('Food_Prices.dim_commodities_gold')
 
 # Join silver table data with dimensions to retreive the generated IDs, and remove the remaining dimension columns from the fact dataframe
-dfFactRecordedPrices_gold = ( \
+dfFactFoodPrices_gold = ( \
     df.alias('factPrices') \
     .join( \
         dfDimMarkets_temp.alias('dimMarkets'), \
@@ -326,7 +326,7 @@ from delta.tables import *
 
 # Define schema for the fact table
 DeltaTable.createIfNotExists(spark) \
- .tableName('Food_Prices.fact_recorded_prices') \
+ .tableName('Food_Prices.fact_food_prices') \
  .addColumn('RecordingDate', DateType()) \
  .addColumn('Unit', StringType()) \
  .addColumn('PriceFlag', StringType()) \
@@ -351,9 +351,9 @@ DeltaTable.createIfNotExists(spark) \
 
 from delta.tables import *
 
-DeltaTable = DeltaTable.forPath(spark, 'Tables/fact_recorded_prices')
+DeltaTable = DeltaTable.forPath(spark, 'Tables/fact_food_prices')
 
-dfUpdates = dfFactRecordedPrices_gold
+dfUpdates = dfFactFoodPrices_gold
 
 # Upsert operation that checks if row matches based on the Date
 DeltaTable.alias('gold') \
