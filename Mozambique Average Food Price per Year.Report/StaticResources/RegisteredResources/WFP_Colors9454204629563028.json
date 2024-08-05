@@ -1,0 +1,24 @@
+{
+  "name": "WFP Colors",
+  "dataColors": [
+    "#0A6EB4",
+    "#19486A",
+    "#26BDE2",
+    "#3F7E44",
+    "#8AD220",
+    "#F7B825",
+    "#DDA63A",
+    "#FD6925"
+  ],
+  "bad": "#C5192D",
+  "neutral": "#26BDE2",
+  "good": "#8AD220",
+  "minimum": "#26BDE2",
+  "center": "#0A6EB4",
+  "maximum": "#19486A",
+  "textClasses": {
+    "title": {
+      "fontFace": "'Segoe UI Bold', wf_segoe-ui_bold, helvetica, arial, sans-serif"
+    }
+  }
+}

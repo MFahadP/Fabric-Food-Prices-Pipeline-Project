@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Mozambique Average Food Price per Year"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "17039df3-2640-46f3-b915-ed34b82c2a44"
+  }
+}
