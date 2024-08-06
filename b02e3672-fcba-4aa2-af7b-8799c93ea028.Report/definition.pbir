@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Mozambique Average Food Price per Year.SemanticModel"
+    },
+    "byConnection": null
+  }
+}

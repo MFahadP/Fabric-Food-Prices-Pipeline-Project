@@ -1,0 +1,4835 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1203.0 (24.07)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"dim_calendar_gold\",\"dim_commodities_gold\",\"dim_markets_gold\",\"fact_food_prices\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dim_calendar_gold": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim calendar gold": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_calendar_gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "gold": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "calendar gold": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim calendar trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "gilt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gold-plated": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gold-leaf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "calendar trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "dim calendar title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim calendar medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "calendar title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "calendar medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "Day"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.month_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "MonthName"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MonthName": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "month nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "month tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "mth name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.month_year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "MonthYear"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MonthYear": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "month yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "Quarter"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  }
+                ]
+              },
+              "dim_calendar_gold.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_calendar_gold",
+                    "ConceptualProperty": "Year"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "Recording Year": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_commodities_gold": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_commodities_gold"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim commodities gold": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim commodity gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "dim_commodities_gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "gold": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "commodities gold": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "commodity gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  },
+                  {
+                    "dim commodity trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "gilt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gold-plated": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gold-leaf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "commodity trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "dim commodity title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim commodity medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "commodity title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "commodity medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "dim_commodities_gold.ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_commodities_gold",
+                    "ConceptualProperty": "ID"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_commodities_gold.category_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_commodities_gold",
+                    "ConceptualProperty": "CategoryName"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "category name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CategoryName": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "category": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "classification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "category nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "category title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "category label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "category tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grouping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "classification name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "class name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Commodity Category": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_commodities_gold.commodity_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_commodities_gold",
+                    "ConceptualProperty": "CommodityName"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "commodity name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CommodityName": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "commodity": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "commodity nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "commodity title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "commodity label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "commodity tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "service": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_commodities_gold.origin": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_commodities_gold",
+                    "ConceptualProperty": "Origin"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "origin": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "derivation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "basis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "source": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cause": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "beginning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "foundation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim markets gold": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim market gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "dim_markets_gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "gold": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "markets gold": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "market gold": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.7566
+                    }
+                  },
+                  {
+                    "dim market trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "gilt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gold-plated": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "gold-leaf": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "market trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "dim market title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "dim market medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  },
+                  {
+                    "trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "market title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "market medal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "ID"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.city_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "CityName"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "city name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CityName": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "city": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "metropolis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "municipality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "city nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "city title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "city label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "city tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "town": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "metropolitan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "location name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.latitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "Latitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitude": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "leeway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "freedom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "autonomy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "liberty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "opportunity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "room": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.longitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "Longitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitude": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.market_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "MarketName"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "market name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MarketName": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "market": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "market nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "market title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "market label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "market tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "marketplace": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "souk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "bazaar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "shop": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "arcade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fair": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.market_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "MarketType"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "market type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MarketType": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "market category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "market genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "market manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "market variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "market brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "market class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "market kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "dim_markets_gold.province": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_markets_gold",
+                    "ConceptualProperty": "Province"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "province": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "jurisdiction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "domain": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "authority": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "area": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "sphere": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "field": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "region": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "prefecture": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "territory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "realm": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "fact_food_price": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fact food price": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fact_food_prices": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "price": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "food price": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "fact food value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food fee": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food amount": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food bill": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food expense": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "fact food outlay": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.commodity_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "CommodityID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "commodity ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "CommodityID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "commodity": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "commodity identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "commodity identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "commodity identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "commodity credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "product": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "service": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_food_price.created": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "Created"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "created": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "shaped": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "bent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fashioned": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "twisted": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "formed": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "produced": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.file_name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "FileName"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "file name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FileName": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "file": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "file nickname": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "file title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "file label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "file tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "folder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "dossier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "organizer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "categorizer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "wallet": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "sleeve": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.market_ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "MarketID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "market ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "MarketID": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "market": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "market identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "market identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "market identifier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "market credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "marketplace": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "souk": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "bazaar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "shop": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "arcade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fair": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "fact_food_price.modified": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "Modified"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "modified": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "adapted": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "altered": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "changed": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "improved": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "revised": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "reformed": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "adjusted": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "amended": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "customized": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "tailored": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.price_MZN": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "PriceMZN"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price MZN": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PriceMZN": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "MZN": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.price_USD": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "PriceUSD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price USD": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PriceUSD": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "USD": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.price_flag": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "PriceFlag"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price flag": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PriceFlag": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "flag": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "price ensign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "price pennant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "price pennon": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "price emblem": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "price streamer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "ensign": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pennant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pennon": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "emblem": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "streamer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.price_type": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "PriceType"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "price type": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "PriceType": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "price category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "price genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "price manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "price variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "genre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "manner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "variety": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "price brand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "price class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "price kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.recording_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "RecordingDate"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "recording date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "RecordingDate": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "recording moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "recording period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  }
+                ]
+              },
+              "fact_food_price.unit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "fact_food_prices",
+                    "ConceptualProperty": "Unit"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "unit": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "module": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "element": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "entity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "component": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "constituent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "item": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "part": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "section": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dim_calendar_gold_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.date"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.date": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_has_day": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.day"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.day": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.month"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.month": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_has_month_name": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.month_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_month_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.month_name": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.month_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_has_month_year": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.month_year"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_month_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.month_year": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.month_year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.quarter"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.quarter": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold.year"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.year": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_calendar_gold_is_Recorded_in_year": {
+                "Binding": {
+                  "ConceptualEntity": "dim_calendar_gold"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_calendar_gold_are_Recorded_on_years",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "dim_calendar_gold"
+                      },
+                      "Verbs": [
+                        {
+                          "Record": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "dim_calendar_gold.year": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold.year"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "dim_calendar_gold.year"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_commodities_gold_has_ID": {
+                "Binding": {
+                  "ConceptualEntity": "dim_commodities_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_commodities_gold.ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_commodities_gold"
+                      }
+                    },
+                    "ID": "dim_commodities_gold_have_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ID_are_names_IDs_of_dim_commodities_gold",
+                    "Name": {
+                      "Name": {
+                        "Role": "dim_commodities_gold.ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_commodities_gold"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_commodities_gold": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold"
+                    }
+                  },
+                  "dim_commodities_gold.ID": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold.ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_commodities_gold_has_category_name": {
+                "Binding": {
+                  "ConceptualEntity": "dim_commodities_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_commodities_gold.category_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_commodities_gold"
+                      }
+                    },
+                    "ID": "dim_commodities_gold_have_category_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_commodities_gold": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold"
+                    }
+                  },
+                  "dim_commodities_gold.category_name": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold.category_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_commodities_gold_has_commodity_name": {
+                "Binding": {
+                  "ConceptualEntity": "dim_commodities_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_commodities_gold.commodity_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_commodities_gold"
+                      }
+                    },
+                    "ID": "dim_commodities_gold_have_commodity_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_commodities_gold": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold"
+                    }
+                  },
+                  "dim_commodities_gold.commodity_name": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold.commodity_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_commodities_gold_has_origin": {
+                "Binding": {
+                  "ConceptualEntity": "dim_commodities_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_commodities_gold.origin"
+                      },
+                      "Subject": {
+                        "Role": "dim_commodities_gold"
+                      }
+                    },
+                    "ID": "dim_commodities_gold_have_origins",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_commodities_gold": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold"
+                    }
+                  },
+                  "dim_commodities_gold.origin": {
+                    "Target": {
+                      "Entity": "dim_commodities_gold.origin"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_ID": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ID_are_names_IDs_of_dim_markets_gold",
+                    "Name": {
+                      "Name": {
+                        "Role": "dim_markets_gold.ID"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.ID": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_city_name": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.city_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_city_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.city_name": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.city_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_latitude": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.latitude"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_latitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.latitude": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.latitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_longitude": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.longitude"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_longitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.longitude": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.longitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_market_name": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.market_name"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_market_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.market_name": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.market_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_market_type": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.market_type"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_market_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "DynamicAdjective": {
+                      "Adjective": {
+                        "Role": "dim_markets_gold.market_type"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "market_types_describe_dim_markets_gold",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.market_type": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.market_type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_has_province": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold.province"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_provinces",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.province": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.province"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_in_city_name": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_markets_gold_are_in_city_names",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_markets_gold.city_name"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.city_name": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.city_name"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_markets_gold.city_name"
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_markets_gold_in_province": {
+                "Binding": {
+                  "ConceptualEntity": "dim_markets_gold"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "dim_markets_gold_are_in_provinces",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "dim_markets_gold.province"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "dim_markets_gold.province": {
+                    "Target": {
+                      "Entity": "dim_markets_gold.province"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "dim_markets_gold.province"
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_created": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.created"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_created",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.created": {
+                    "Target": {
+                      "Entity": "fact_food_price.created"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_dim_calendar_gold": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_calendar_gold"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_dim_calendar_gold",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price"
+                      },
+                      "Subject": {
+                        "Role": "dim_calendar_gold"
+                      }
+                    },
+                    "ID": "dim_calendar_gold_have_fact_food_prices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_calendar_gold": {
+                    "Target": {
+                      "Entity": "dim_calendar_gold"
+                    }
+                  },
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_dim_commodities_gold": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_commodities_gold"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_dim_commodities_gold",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price"
+                      },
+                      "Subject": {
+                        "Role": "dim_commodities_gold"
+                      }
+                    },
+                    "ID": "dim_commodities_gold_have_fact_food_prices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_commodities_gold": {
+                    "Nouns": [
+                      {
+                        "commodity": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "dim_commodities_gold"
+                    }
+                  },
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_dim_markets_gold": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_markets_gold"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_dim_markets_gold",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price"
+                      },
+                      "Subject": {
+                        "Role": "dim_markets_gold"
+                      }
+                    },
+                    "ID": "dim_markets_gold_have_fact_food_prices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_markets_gold": {
+                    "Target": {
+                      "Entity": "dim_markets_gold"
+                    }
+                  },
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_file_name": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.file_name"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_file_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.file_name": {
+                    "Target": {
+                      "Entity": "fact_food_price.file_name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_modified": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.modified"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_modified",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.modified": {
+                    "Target": {
+                      "Entity": "fact_food_price.modified"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_price_MZN": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.price_MZN"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_price_MZNs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.price_MZN": {
+                    "Target": {
+                      "Entity": "fact_food_price.price_MZN"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_price_USD": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.price_USD"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_price_USD",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.price_USD": {
+                    "Target": {
+                      "Entity": "fact_food_price.price_USD"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_price_flag": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.price_flag"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_price_flags",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.price_flag": {
+                    "Target": {
+                      "Entity": "fact_food_price.price_flag"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_price_type": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.price_type"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_price_types",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.price_type": {
+                    "Target": {
+                      "Entity": "fact_food_price.price_type"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_recording_date": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.recording_date"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_recording_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.recording_date": {
+                    "Target": {
+                      "Entity": "fact_food_price.recording_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_has_unit": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "fact_food_price.unit"
+                      },
+                      "Subject": {
+                        "Role": "fact_food_price"
+                      }
+                    },
+                    "ID": "fact_food_prices_have_units",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.unit": {
+                    "Target": {
+                      "Entity": "fact_food_price.unit"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_is_created_on_created": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "fact_food_prices_are_created_on_created",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "fact_food_price"
+                      },
+                      "Verbs": [
+                        {
+                          "create": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.created": {
+                    "Target": {
+                      "Entity": "fact_food_price.created"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "fact_food_price.created"
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_is_modified_on_modified": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "fact_food_prices_are_modified_on_modified",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "fact_food_price"
+                      },
+                      "Verbs": [
+                        {
+                          "modify": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.modified": {
+                    "Target": {
+                      "Entity": "fact_food_price.modified"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "fact_food_price.modified"
+                  }
+                },
+                "State": "Generated"
+              },
+              "fact_food_price_is_recorded_on_recording_date": {
+                "Binding": {
+                  "ConceptualEntity": "fact_food_prices"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "fact_food_prices_are_recorded_on_recording_dates",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "fact_food_price"
+                      },
+                      "Verbs": [
+                        {
+                          "record": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "fact_food_price": {
+                    "Target": {
+                      "Entity": "fact_food_price"
+                    }
+                  },
+                  "fact_food_price.recording_date": {
+                    "Target": {
+                      "Entity": "fact_food_price.recording_date"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "fact_food_price.recording_date"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "b9292f9d-a1dc-8757-7310-6082c8abfdfb",
+        "fromColumn": "RecordingDate",
+        "fromTable": "fact_food_prices",
+        "toColumn": "Date",
+        "toTable": "dim_calendar_gold"
+      },
+      {
+        "name": "a97f4b79-c79d-3bb4-ce33-bcf0a8c17e24",
+        "fromColumn": "Created",
+        "fromTable": "fact_food_prices",
+        "isActive": false,
+        "toColumn": "Date",
+        "toTable": "dim_calendar_gold"
+      },
+      {
+        "name": "fab024ff-99fe-5b89-6fec-bb7a3a81e2ec",
+        "fromColumn": "Modified",
+        "fromTable": "fact_food_prices",
+        "isActive": false,
+        "toColumn": "Date",
+        "toTable": "dim_calendar_gold"
+      },
+      {
+        "name": "52b12732-5eeb-e11b-cba6-4cd7ffa248ea",
+        "fromColumn": "CommodityID",
+        "fromTable": "fact_food_prices",
+        "toColumn": "ID",
+        "toTable": "dim_commodities_gold"
+      },
+      {
+        "name": "7df77295-2a15-3be2-cc95-a4f7a0ff68ef",
+        "fromColumn": "MarketID",
+        "fromTable": "fact_food_prices",
+        "toColumn": "ID",
+        "toTable": "dim_markets_gold"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "dim_calendar_gold",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "f9f4b0e9-ff0b-4bdf-b304-87e785f0578a",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "53e8ccef-9517-4085-bf68-4c8889aad3f3",
+            "sourceColumn": "Day",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "36f04e9f-894a-4ac7-900c-5898f9676857",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b0cbca9e-939b-4fb1-a439-9baaca693b86",
+            "sourceColumn": "MonthName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "3e54121e-dd04-4f5a-93ac-af442a0e1e1f",
+            "sourceColumn": "Quarter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b79085af-b20d-405a-abf4-9a6a8a972a26",
+            "sourceColumn": "Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthYear",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "916cc048-d705-449f-8db8-7ac78b3595eb",
+            "sourceColumn": "MonthYear",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "bd638b78-3b30-4a1b-ac53-83b6a0e7ad91",
+        "partitions": [
+          {
+            "name": "dim_calendar_gold",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"3bcrvlkldmjeljdeladz6ikrre-3afcgicpdzsu7avaunpg53yjke.datawarehouse.fabric.microsoft.com\", \"Food_Prices\"),",
+                "    dbo_dim_calendar_gold = Source{[Schema=\"dbo\",Item=\"dim_calendar_gold\"]}[Data]",
+                "in",
+                "    dbo_dim_calendar_gold"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_commodities_gold",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "79380a68-ac46-4a2b-b3e7-3db8a53d7c9b",
+            "sourceColumn": "ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CommodityName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fa776ca8-9ecd-4bba-9e73-c4df65adca73",
+            "sourceColumn": "CommodityName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CategoryName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9bf97b9b-58e5-4ae4-b8e9-b6307c23e307",
+            "sourceColumn": "CategoryName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Origin",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dfec9100-6ad9-4b13-86b2-88c4f33753ec",
+            "sourceColumn": "Origin",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ed8efc1b-5233-446e-b6a8-c53b72e78e7c",
+        "partitions": [
+          {
+            "name": "dim_commodities_gold",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"3bcrvlkldmjeljdeladz6ikrre-3afcgicpdzsu7avaunpg53yjke.datawarehouse.fabric.microsoft.com\", \"Food_Prices\"),",
+                "    dbo_dim_commodities_gold = Source{[Schema=\"dbo\",Item=\"dim_commodities_gold\"]}[Data]",
+                "in",
+                "    dbo_dim_commodities_gold"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_markets_gold",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e5032a23-3598-4f4f-ab73-4257a468ef47",
+            "sourceColumn": "ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MarketName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4bfade16-1e7f-4a08-9678-220bbea460e2",
+            "sourceColumn": "MarketName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MarketType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7b6fc555-b374-47a3-ad5a-b2612b429e44",
+            "sourceColumn": "MarketType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CityName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "City",
+            "dataType": "string",
+            "lineageTag": "5fa8ccac-1830-4fdc-9e8c-b7ff11c0de86",
+            "sourceColumn": "CityName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Province",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "StateOrProvince",
+            "dataType": "string",
+            "lineageTag": "2f918978-e5cd-4ae9-b7b5-ec22d1fa0564",
+            "sourceColumn": "Province",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d5869d7d-f3f7-4cdd-92ff-e10851faeb4a",
+            "sourceColumn": "Latitude",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a7724654-ef5e-4d96-9266-b77e9fffaaf3",
+            "sourceColumn": "Longitude",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "111f621c-e2ed-4982-9816-104acc1f6a9c",
+        "partitions": [
+          {
+            "name": "dim_markets_gold",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"3bcrvlkldmjeljdeladz6ikrre-3afcgicpdzsu7avaunpg53yjke.datawarehouse.fabric.microsoft.com\", \"Food_Prices\"),",
+                "    dbo_dim_markets_gold = Source{[Schema=\"dbo\",Item=\"dim_markets_gold\"]}[Data]",
+                "in",
+                "    dbo_dim_markets_gold"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_food_prices",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "RecordingDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "6d8ef9d6-0637-48ab-9d54-481dc0af7d31",
+            "sourceColumn": "RecordingDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Unit",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98cc3cee-aa48-4072-b886-a6af2a226472",
+            "sourceColumn": "Unit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PriceFlag",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f083a5ce-17a7-47eb-a073-f952e501a328",
+            "sourceColumn": "PriceFlag",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PriceType",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "670844d0-65ed-41f6-b407-88baebdef2c9",
+            "sourceColumn": "PriceType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PriceMZN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "90cef40c-93f9-4020-a57a-56470baf0643",
+            "sourceColumn": "PriceMZN",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "PriceUSD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "d6f0a16d-02b5-457d-9452-de2037b0cc9c",
+            "sourceColumn": "PriceUSD",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "FileName",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "97db2130-6663-403c-8b38-f006b39b4daa",
+            "sourceColumn": "FileName",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "f56ba631-bb46-4556-a91f-d5b82ab15719",
+            "sourceColumn": "Created",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Modified",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "d54ba1c4-d876-470c-9d17-a96186069353",
+            "sourceColumn": "Modified",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MarketID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a7092e62-5919-4992-ba34-0e90c4b842ab",
+            "sourceColumn": "MarketID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CommodityID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4b0edeb6-03b3-4db4-9354-313864afe7b1",
+            "sourceColumn": "CommodityID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b732a105-b035-42b3-87c4-8378160eb306",
+        "partitions": [
+          {
+            "name": "fact_food_prices",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"3bcrvlkldmjeljdeladz6ikrre-3afcgicpdzsu7avaunpg53yjke.datawarehouse.fabric.microsoft.com\", \"Food_Prices\"),",
+                "    dbo_fact_food_prices = Source{[Schema=\"dbo\",Item=\"fact_food_prices\"]}[Data]",
+                "in",
+                "    dbo_fact_food_prices"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
