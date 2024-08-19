@@ -62,10 +62,21 @@ DeltaTable.createIfNotExists(spark) \
 
 # CELL ********************
 
-from pyspark.sql.functions import col, dayofmonth, month, year, date_format, quarter, concat
+from pyspark.sql.functions import col, dayofmonth, month, year, date_format, quarter, concat, sequence, explode, to_date, lit
+from pyspark.sql.types import StructType, StructField, DateType
+from pyspark.sql.functions import min as sparkMin
+from pyspark.sql.functions import max as sparkMax
+
+min_max_dates = df.select(sparkMin(col('RecordingDate')).alias('min_date'), sparkMax(col('RecordingDate')).alias('max_date')).first()
+
+date_range_df = spark.createDataFrame([(min_max_dates['min_date'], min_max_dates['max_date'])], ["start_date", "end_date"])
+
+# Generate a sequence of dates between min_date and max_date
+all_dates_df = date_range_df.select(explode(sequence(col('start_date'), col('end_date'))).alias('RecordingDate'))
 
 #Create dataframe for calendar dimension
-dfDimCalendar_gold = df.dropDuplicates(['RecordingDate']).select(col('RecordingDate'), \
+dfDimCalendar_gold = all_dates_df.select(
+ col('RecordingDate'), \
  dayofmonth('RecordingDate').alias('Day'), \
  month('RecordingDate').alias('Month'), \
  date_format('RecordingDate', 'MMMM').alias('MonthName'), \
