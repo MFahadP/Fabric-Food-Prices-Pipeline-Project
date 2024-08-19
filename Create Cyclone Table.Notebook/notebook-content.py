@@ -26,11 +26,11 @@ from pyspark.sql.types import *
 from pyspark.sql import functions as f
 import datetime
 
-data = [{'LandfallDate': datetime.date(2019,3,14), 'CycloneName': 'Cyclone Idai'}, {'LandfallDate': datetime.date(2019,4,25), 'CycloneName': 'Cyclone Kenneth'}, {'LandfallDate': datetime.date(2021,1,22), 'CycloneName': 'Cyclone Eloise'}]
+data = [{'EventDate': datetime.date(2019,3,14), 'EventName': 'Cyclone Idai'}, {'EventDate': datetime.date(2019,4,25), 'EventName': 'Cyclone Kenneth'}, {'EventDate': datetime.date(2021,1,22), 'EventName': 'Cyclone Eloise'}, {'EventDate': datetime.date(2020,4,1), 'EventName': 'First COVID-19 state of emergency'}, {'EventDate': datetime.date(2023,4,11), 'EventName': 'End of COVID-19 restrictions'}]
 
 schema = StructType([
-    StructField('LandfallDate', DateType()),
-    StructField('CycloneName', StringType())
+    StructField('EventDate', DateType()),
+    StructField('EventName', StringType())
 ])
 
 df = spark.createDataFrame(data, schema)
@@ -49,9 +49,9 @@ from delta.tables import *
 
 # Define schema for the commodities dimension table
 DeltaTable.createIfNotExists(spark) \
- .tableName('Food_Prices.fact_cyclones') \
- .addColumn('LandfallDate', DateType()) \
- .addColumn('CycloneName', StringType()) \
+ .tableName('Food_Prices.fact_weather_and_health_events') \
+ .addColumn('EventDate', DateType()) \
+ .addColumn('EventName', StringType()) \
  .execute()
 
 # METADATA ********************
@@ -65,15 +65,15 @@ DeltaTable.createIfNotExists(spark) \
 
 from delta.tables import *
 
-DeltaTable = DeltaTable.forPath(spark, 'Tables/fact_cyclones')
+DeltaTable = DeltaTable.forPath(spark, 'Tables/fact_weather_and_health_events')
 
 # Upsert operation that checks if row matches based on the Date
-DeltaTable.alias('cyclones') \
- .merge(df.alias('updates'), 'cyclones.CycloneName = updates.CycloneName') \
+DeltaTable.alias('events') \
+ .merge(df.alias('updates'), 'events.EventName = updates.EventName') \
  .whenMatchedUpdate(set = {}) \
  .whenNotMatchedInsert(values = {
-    'LandfallDate': 'updates.LandfallDate',
-    'CycloneName': 'updates.CycloneName'
+    'EventDate': 'updates.EventDate',
+    'EventName': 'updates.EventName'
  }) \
  .execute()
 
